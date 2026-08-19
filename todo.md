@@ -98,3 +98,7 @@
 - [x] Remove backend build artifacts and retain only static frontend deployment behavior.
 - [x] Add Vercel configuration for a Vite static build with client-side route fallback.
 - [x] Verify the frontend-only production build and push the deployment fix to GitHub.
+
+## Home hero Discover cue
+
+- [x] Correct the Discover cue placement and contrast so it remains fully visible across breakpoints.
