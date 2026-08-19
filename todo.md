@@ -102,3 +102,8 @@
 ## Home hero Discover cue
 
 - [x] Correct the Discover cue placement and contrast so it remains fully visible across breakpoints.
+
+## Client-facing punctuation cleanup
+
+- [x] Remove em dashes and AI-style dash punctuation from all rendered website copy.
+- [x] Verify the client-facing source contains no remaining em dashes.
