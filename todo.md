@@ -16,3 +16,12 @@
 - [x] Build the dedicated Expertise, Services, Approach, About Eva, and Start a Conversation pages.
 - [x] Verify every page, interaction, breakpoint, and reduced-motion fallback.
 - [ ] Save and deliver the multi-page checkpoint.
+
+## Immediate entry update
+
+- [x] Remove the Home-page splash screen and all unused loader code.
+- [x] Verify direct page entry and save the update checkpoint.
+
+## Hero rail refinement
+
+- [x] Remove the Home hero sequence counter and preserve the advisory rail layout.
