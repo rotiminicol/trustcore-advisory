@@ -82,3 +82,7 @@
 - [x] Audit Home, Expertise, Services, Approach, About Eva, and Start a Conversation at phone, tablet, and desktop breakpoints.
 - [x] Correct any layout, typography, navigation, input, image, and motion issues found across breakpoints.
 - [x] Verify all primary pages at representative phone, tablet, and desktop sizes.
+
+## GitHub export
+
+- [ ] Push the current TRUSTCORE ADVISORY project to the connected GitHub account and verify the remote repository.
