@@ -1,0 +1,15 @@
+/** About page — founder confidence, depth of experience, and professional context. */
+import { MoveRight } from "lucide-react";
+import { Link } from "wouter";
+import { PageEyebrow, SiteShell } from "@/components/SiteShell";
+
+const background = [
+  ["Hospitality & hotel operations", "Hotel breakfast department management, housekeeping floor supervision in five-star hospitality, guest relations, and hospitality team coordination."],
+  ["Public relations & promotions", "PR team management, advertising and promotional campaigns, event and nightlife promotions."],
+  ["Media & communication", "Radio and news production, long-term experience in interviewing, public communication, and client-facing interaction."],
+  ["Security", "Licensed Security Professional in the Republic of Cyprus, with operational knowledge of prevention, response procedures, workplace awareness, and team coordination."],
+];
+
+export default function About() {
+  return <SiteShell><main><section className="about-hero page-shell"><div className="about-hero__seal motion-reveal"><img src="/manus-storage/trustcore-monogram_7213fa8a.png" alt="Trustcore Advisory monogram" /><span>EK</span></div><div className="motion-reveal"><PageEyebrow chapter="04">About Eva Kyriakou</PageEyebrow><h1>Experience that connects the <em>front line</em> to the bigger picture.</h1><p>Eva is a hospitality and business professional with over 20 years of cross-functional experience spanning hotel operations, food and beverage, guest relations, promotions, media, and team leadership.</p></div></section><section className="about-statement"><div className="page-shell motion-reveal"><p>Her perspective is both operational and human. The experience behind a breakfast service, a guest interaction, a staff handover, a safety procedure, or a public-facing message is never only one thing. It is an opportunity to build confidence and improve how a business performs.</p></div></section><section className="background-list page-shell"><div className="motion-reveal"><PageEyebrow chapter="A">Professional background</PageEyebrow></div>{background.map(([title, detail], index) => <article className="motion-reveal" style={{ transitionDelay: `${index * 70}ms` }} key={title}><span>0{index + 1}</span><h2>{title}</h2><p>{detail}</p></article>)}</section><section className="about-credentials page-shell"><article className="motion-reveal"><span>Licensed professional</span><strong>Security Professional<br />Republic of Cyprus</strong></article><article className="motion-reveal"><span>Working languages</span><strong>English & Greek<br /><i>Russian & German, conversational</i></strong></article><article className="motion-reveal"><span>Consulting format</span><strong>Remote advisory<br />Worldwide availability</strong></article></section><section className="closing-link page-shell motion-reveal"><p>See how this breadth of experience becomes practical support.</p><Link href="/approach" className="text-link">Explore the approach <MoveRight /></Link></section></main></SiteShell>;
+}

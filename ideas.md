@@ -85,3 +85,17 @@ The hero will use a muted, looping 16:9 film with a staged reveal. As visitors m
 
 - The service chapter must never contain unstructured blank scroll space; editorial pauses carry field-note annotations, a numbered pathway marker, or the Trustline.
 - Service pathway copy takes the voice of private advisory field notes: concise, operational, and specific rather than generic marketing benefit language.
+
+## Multi-page Narrative Architecture
+
+The Home page is the cinematic entry point. It will retain the hospitality film, establish the central proposition, introduce the three connected disciplines, and route visitors into the individual advisory narratives without attempting to tell the entire story at once.
+
+The Expertise page will make the discipline set tangible through three editorial chapters: hospitality operations, guest and customer experience, and security and risk awareness. It will read as a point of view on the systems behind trusted service.
+
+The Services page will become the practical field guide. Each service stream will carry its own outcomes, scope markers, and best-fit business questions, so prospects can self-identify the engagement most relevant to them.
+
+The Approach page will turn the working method into an immersive four-stage sequence: listen, see, shape, embed. Its job is to make the consultancy process feel concrete and reassuring before a first conversation.
+
+The About Eva page will provide professional confidence: a concise career story, cross-functional background, security licensing, communication experience, languages, and the founder’s operational perspective.
+
+The Start a Conversation page will be a calm, low-friction qualification space. It will offer a detailed enquiry interface and explain the remote, worldwide consulting model, while keeping the exact delivery endpoint ready for the client’s preferred business email or CRM connection.

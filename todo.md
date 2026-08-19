@@ -6,4 +6,13 @@
 - [x] Add scroll-driven scene transitions, type choreography, and Trustline motion across the page.
 - [x] Create an interactive services sequence controlled by scroll position.
 - [x] Validate desktop and mobile pacing, reduced-motion support, compilation, and visual presentation.
-- [ ] Save and deliver the revision checkpoint.
+- [x] Save and deliver the revision checkpoint.
+
+## Multi-page expansion
+
+- [x] Define distinct narratives and content structures for Home, Expertise, Services, Approach, About Eva, and Start a Conversation.
+- [x] Create the shared site shell with active-state navigation, transitions, and responsive mobile navigation.
+- [x] Convert the existing single-page work into a focused cinematic Home page.
+- [x] Build the dedicated Expertise, Services, Approach, About Eva, and Start a Conversation pages.
+- [x] Verify every page, interaction, breakpoint, and reduced-motion fallback.
+- [ ] Save and deliver the multi-page checkpoint.
