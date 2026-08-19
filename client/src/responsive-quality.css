@@ -1,0 +1,16 @@
+/*
+ * Cross-device quality layer — TRUSTCORE ADVISORY.
+ * Global safeguards preserve the approved Quiet Authority compositions on phones, tablets, and desktops:
+ * safe viewport dimensions, no accidental overflow, reliable form behavior, clear focus states, and touch-ready controls.
+ */
+:root { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+html, body, #root { min-height: 100%; }
+body { overflow-x: clip; }
+img, video, svg { max-width: 100%; }
+button, input, textarea, select { font: inherit; }
+input, textarea { min-width: 0; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #b98a48; outline-offset: 3px; }
+.mobile-menu-trigger, .cv-button, .rf-button, .sv-button, .ap-button, .ab-button, .ex-button { min-height: 44px; }
+@media (max-width: 960px) { .site-header__inner { min-height: 70px; } .desktop-nav, .header-cta { display: none; } .mobile-menu-trigger { display: grid; place-items: center; width: 44px; height: 44px; } }
+@media (max-width: 680px) { .page-shell { width: min(100% - 38px, 1280px); } .site-footer__top > a:last-child, .site-footer__bottom span { min-height: 24px; } input, textarea, select { font-size: 16px !important; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { scroll-behavior: auto !important; } }

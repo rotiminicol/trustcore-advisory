@@ -76,3 +76,9 @@
 - [x] Design a calm, on-site enquiry flow with clear service context and minimal required fields.
 - [x] Build client-side validation, in-page confirmation, and a Resend-ready submission boundary.
 - [x] Validate form behavior, accessibility, and responsive presentation at desktop and mobile sizes.
+
+## Cross-device responsive quality pass
+
+- [x] Audit Home, Expertise, Services, Approach, About Eva, and Start a Conversation at phone, tablet, and desktop breakpoints.
+- [x] Correct any layout, typography, navigation, input, image, and motion issues found across breakpoints.
+- [x] Verify all primary pages at representative phone, tablet, and desktop sizes.
