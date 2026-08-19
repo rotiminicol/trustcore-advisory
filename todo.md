@@ -33,3 +33,10 @@
 - [x] Refine hero copy, primary calls to action, section headings, and on-page navigation cues.
 - [x] Apply a calmer, more purposeful motion and transition system.
 - [x] Validate the revised Home page at desktop and mobile breakpoints.
+
+## Expertise-page refinement
+
+- [x] Audit the current Expertise page for visitor clarity, relevance, and section flow.
+- [x] Rebuild the Expertise-page structure around understandable business disciplines and outcomes.
+- [x] Refine visual hierarchy, page navigation cues, and purpose-driven motion.
+- [x] Validate the revised Expertise page at desktop and mobile breakpoints.
