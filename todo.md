@@ -63,3 +63,9 @@
 - [x] Rebuild the page around a clear professional profile, experience story, and practical credibility.
 - [x] Refine the visual hierarchy, founder details, and motion system.
 - [x] Validate the revised About Eva page at desktop and mobile breakpoints.
+
+## Temporary About hero portrait
+
+- [x] Generate a temporary professional founder portrait aligned with the Trustcore brand aesthetic.
+- [x] Integrate the temporary portrait into the About hero with a simple real-photo replacement path.
+- [x] Validate the portrait composition at desktop and mobile breakpoints.
