@@ -48,3 +48,11 @@
 - [x] Build a clean visual service navigator with detailed yet scannable service profiles.
 - [x] Add refined sliders, motion, and parallax that support service discovery.
 - [x] Validate the revised Services page at desktop and mobile breakpoints.
+
+## Approach-page refinement and route behavior
+
+- [x] Fix navigation so every route change opens at the top of the destination page.
+- [x] Audit the current Approach page for clarity, practical guidance, and section flow.
+- [x] Rebuild the Approach page around a clear engagement journey and user-friendly process explanation.
+- [x] Refine motion and visual hierarchy without sacrificing clarity.
+- [x] Validate route behavior and the Approach page at desktop and mobile breakpoints.

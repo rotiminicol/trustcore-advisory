@@ -27,6 +27,7 @@ export function SiteShell({ children, tone = "light" }: { children: ReactNode; t
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     setOpen(false);
     const observer = new IntersectionObserver((entries) => entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add("is-visible")), { threshold: 0.12 });
     document.querySelectorAll(".motion-reveal").forEach((item) => observer.observe(item));
