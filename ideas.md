@@ -76,3 +76,12 @@ The initial single-page website will lead with a clear value proposition, then b
 - The Trustcore TC monogram is the primary brand seal across header, footer, and major conversion moments; personal initials such as EK appear only in Eva’s founder-profile context.
 - The Trustline is a continuous editorial and navigation device, carrying through major chapters and numbered moments instead of appearing only as isolated dividers.
 - Service pathways are treated as private-advisory field-guide entries. Typography, numbering, and linework lead the hierarchy; heavy sales-card styling is avoided.
+
+## Motion Direction: Choreographed Stillness
+
+The experience will borrow the pacing of an art-directed brand film rather than a conventional animated landing page. A cinematic hotel sequence opens slowly, editorial typography locks to each scroll chapter, and a fine amber Trustline becomes a live visual thread that measures progress. Motion is purposeful and controlled: moments of immersive velocity resolve into calm reading space, so the visual language reinforces Eva’s operational clarity rather than competing with it.
+
+The hero will use a muted, looping 16:9 film with a staged reveal. As visitors move through the site, the service section will operate as a pinned field guide: a large active service label changes with scroll position while supporting detail moves in counterpoint. The approach section will use parallax and masked type; content exits and enters through crop, scale, and line-draw transitions rather than generic fade-ins. On mobile and for reduced-motion visitors, all content remains direct, legible, and fully accessible, with video replaced by its composed poster frame and no scroll lock.
+
+- The service chapter must never contain unstructured blank scroll space; editorial pauses carry field-note annotations, a numbered pathway marker, or the Trustline.
+- Service pathway copy takes the voice of private advisory field notes: concise, operational, and specific rather than generic marketing benefit language.
