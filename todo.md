@@ -85,4 +85,4 @@
 
 ## GitHub export
 
-- [ ] Push the current TRUSTCORE ADVISORY project to the connected GitHub account and verify the remote repository.
+- [x] Push the current TRUSTCORE ADVISORY project to the connected GitHub account and verify the remote repository.
