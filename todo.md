@@ -86,3 +86,9 @@
 ## GitHub export
 
 - [x] Push the current TRUSTCORE ADVISORY project to the connected GitHub account and verify the remote repository.
+
+## Social-media footer enhancement
+
+- [x] Add official social platform icons and future-ready profile link configuration.
+- [x] Integrate accessible social links into the shared footer with a polished professional treatment.
+- [x] Validate social-media presentation across desktop and mobile layouts.

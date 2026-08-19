@@ -5,6 +5,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { ArrowUpRight, Globe2, Menu, X } from "lucide-react";
 import { Link, useLocation } from "wouter";
+import { SocialLinks } from "./SocialLinks";
 
 const navItems = [
   ["Expertise", "/expertise"],
@@ -52,7 +53,7 @@ export function SiteShell({ children, tone = "light" }: { children: ReactNode; t
       <div className="mobile-nav__content"><span className="eyebrow eyebrow--gold">Navigate</span>{navItems.map(([label, href], index) => <Link key={href} href={href} className="mobile-nav__link" style={{ transitionDelay: `${80 + index * 50}ms` }}>{label}<ArrowUpRight /></Link>)}<Link href="/contact" className="mobile-nav__cta">Start a conversation <ArrowUpRight /></Link></div>
     </div>
     {children}
-    <footer className="site-footer"><div className="site-footer__top"><BrandLockup /><p>Hospitality operations · customer experience · security advisory · business consulting</p><Link href="/contact">Start a conversation <ArrowUpRight /></Link></div><div className="site-footer__bottom"><span>© {new Date().getFullYear()} TRUSTCORE ADVISORY</span><span>Eva Kyriakou · Remote consulting worldwide</span><span><Globe2 /> Cyprus & global</span></div></footer>
+    <footer className="site-footer"><div className="site-footer__top"><BrandLockup /><div className="site-footer__summary"><p>Hospitality operations · customer experience · security advisory · business consulting</p><SocialLinks /></div><Link href="/contact">Start a conversation <ArrowUpRight /></Link></div><div className="site-footer__bottom"><span>© {new Date().getFullYear()} TRUSTCORE ADVISORY</span><span>Eva Kyriakou · Remote consulting worldwide</span><span><Globe2 /> Cyprus & global</span></div></footer>
   </div>;
 }
 
