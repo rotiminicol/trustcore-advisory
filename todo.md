@@ -92,3 +92,9 @@
 - [x] Add official social platform icons and future-ready profile link configuration.
 - [x] Integrate accessible social links into the shared footer with a polished professional treatment.
 - [x] Validate social-media presentation across desktop and mobile layouts.
+
+## Frontend-only Vercel deployment fix
+
+- [x] Remove backend build artifacts and retain only static frontend deployment behavior.
+- [x] Add Vercel configuration for a Vite static build with client-side route fallback.
+- [x] Verify the frontend-only production build and push the deployment fix to GitHub.

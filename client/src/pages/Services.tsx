@@ -12,7 +12,7 @@ import "./services-refined.css";
 const serviceProfiles = [
   {
     id: "operations", number: "01", label: "Hospitality operations", icon: Compass,
-    image: "/manus-storage/trustcore-service-operations_240124f2.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/lWIWTbVIiiGPBubF.jpg",
     imageAlt: "Prepared luxury hospitality breakfast service before guest arrival",
     promise: "Make the day-to-day operation easier to run.",
     summary: "Bring more structure to the routines, handovers, standards, and service rhythm that guests feel without ever seeing.",
@@ -22,7 +22,7 @@ const serviceProfiles = [
   },
   {
     id: "experience", number: "02", label: "Guest & customer experience", icon: Sparkles,
-    image: "/manus-storage/trustcore-service-experience_20f62254.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/qhpkNrrLNyGFifBM.jpg",
     imageAlt: "Hotel host offering attentive guest support in a refined lounge",
     promise: "Turn everyday interactions into a reason to return.",
     summary: "Improve the details of communication, attention, and service recovery that give guests confidence in the people behind the brand.",
@@ -32,7 +32,7 @@ const serviceProfiles = [
   },
   {
     id: "readiness", number: "03", label: "Security & risk readiness", icon: ShieldCheck,
-    image: "/manus-storage/trustcore-service-readiness_7cd50638.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/QOSIOrfakvPVihqN.jpg",
     imageAlt: "Discreet hospitality readiness tools in a secure back-of-house environment",
     promise: "Create a calmer, more prepared working environment.",
     summary: "Strengthen the awareness, procedures, and shared judgement that support people, protect the environment, and keep the business ready.",
@@ -42,7 +42,7 @@ const serviceProfiles = [
   },
   {
     id: "teams", number: "04", label: "Teams & business improvement", icon: UsersRound,
-    image: "/manus-storage/trustcore-service-teams_91a3aa03.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/xYwqognPEzoZaXIt.jpg",
     imageAlt: "Hospitality team collaborating around a service workflow before operations begin",
     promise: "Help people, process, and purpose move in the same direction.",
     summary: "Give teams the coaching, clarity, and operating habits that make good performance feel repeatable—not dependent on a few individuals.",
@@ -66,7 +66,7 @@ export default function Services() {
   const previousService = () => setSelectedIndex((index) => (index - 1 + serviceProfiles.length) % serviceProfiles.length);
 
   return <SiteShell><main className="services-refined">
-    <section className="sv-hero" aria-labelledby="sv-heading"><div className="sv-hero__image"><img src="/manus-storage/trustcore-service-operations_240124f2.jpg" alt="" /><div /></div><div className="sv-hero__inner page-shell motion-reveal"><PageEyebrow chapter="02">Consulting services</PageEyebrow><h1 id="sv-heading">Focused support for the work that <em>matters now.</em></h1><p>Start with the operational question in front of you. Choose a service pathway below to see what it covers, when it helps, and what it can improve.</p><a href="#service-navigator" className="sv-hero__cue">Choose your service <ArrowRight /></a></div></section>
+    <section className="sv-hero" aria-labelledby="sv-heading"><div className="sv-hero__image"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/lWIWTbVIiiGPBubF.jpg" alt="" /><div /></div><div className="sv-hero__inner page-shell motion-reveal"><PageEyebrow chapter="02">Consulting services</PageEyebrow><h1 id="sv-heading">Focused support for the work that <em>matters now.</em></h1><p>Start with the operational question in front of you. Choose a service pathway below to see what it covers, when it helps, and what it can improve.</p><a href="#service-navigator" className="sv-hero__cue">Choose your service <ArrowRight /></a></div></section>
 
     <section id="service-navigator" className="sv-navigator" aria-labelledby="navigator-heading"><div className="page-shell"><div className="sv-section-head motion-reveal"><PageEyebrow chapter="A">Choose your focus</PageEyebrow><h2 id="navigator-heading">Find the support that fits the <em>work in front of you.</em></h2><p>Use this guide to compare the four ways TRUSTCORE can support your business. Select a pathway to explore it in detail.</p></div>
       <div className="sv-stage motion-reveal"><div className="sv-stage__image"><img src={selected.image} alt={selected.imageAlt} key={selected.id} /><div /><span>{selected.number} / 04</span></div><div className="sv-stage__profile" key={selected.id}><div className="sv-stage__profile-head"><div><SelectedIcon /><span>{selected.label}</span></div><div className="sv-stage__arrows"><button type="button" aria-label="Previous service" onClick={previousService}><ArrowLeft /></button><button type="button" aria-label="Next service" onClick={nextService}><ArrowRight /></button></div></div><h3>{selected.promise}</h3><p className="sv-stage__summary">{selected.summary}</p><div className="sv-stage__fit"><span>Best fit when</span><p>{selected.bestFor}</p></div><Link href="/contact" className="sv-inline-action">Discuss this service <ArrowUpRight /></Link></div></div>
@@ -78,7 +78,7 @@ export default function Services() {
 
     <section className="sv-engagement page-shell" aria-labelledby="engagement-heading"><div className="sv-engagement__intro motion-reveal"><PageEyebrow chapter="C">From question to action</PageEyebrow><h2 id="engagement-heading">A simple way to begin a <em>useful conversation.</em></h2><p>You do not need a fully formed brief. Start with the context, the challenge, and the change you want to make.</p></div><div className="sv-engagement__steps">{engagementSteps.map(([number, title, copy], index) => <article className="motion-reveal" style={{ transitionDelay: `${index * 95}ms` }} key={number}><span>{number}</span><div><h3>{title}</h3><p>{copy}</p></div></article>)}</div></section>
 
-    <section className="sv-cta"><div className="sv-cta__line" aria-hidden="true" /><div className="sv-cta__mark" aria-hidden="true"><img src="/manus-storage/trustcore-monogram_7213fa8a.png" alt="" /></div><div className="page-shell sv-cta__inner motion-reveal"><PageEyebrow chapter="D">Start a conversation</PageEyebrow><h2>Tell us what needs attention.<br /><em>We will find the right way forward.</em></h2><p>Available for remote consulting projects and advisory work with businesses worldwide.</p><Link href="/contact" className="sv-button">Request an introduction <ArrowRight /></Link></div></section>
+    <section className="sv-cta"><div className="sv-cta__line" aria-hidden="true" /><div className="sv-cta__mark" aria-hidden="true"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/CHiFlJTUXbrdWsiH.png" alt="" /></div><div className="page-shell sv-cta__inner motion-reveal"><PageEyebrow chapter="D">Start a conversation</PageEyebrow><h2>Tell us what needs attention.<br /><em>We will find the right way forward.</em></h2><p>Available for remote consulting projects and advisory work with businesses worldwide.</p><Link href="/contact" className="sv-button">Request an introduction <ArrowRight /></Link></div></section>
   </main></SiteShell>;
 }
 

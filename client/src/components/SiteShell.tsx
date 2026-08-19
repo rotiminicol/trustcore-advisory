@@ -15,7 +15,7 @@ const navItems = [
 ];
 
 function Mark({ className = "" }: { className?: string }) {
-  return <img className={className} src="/manus-storage/trustcore-monogram_7213fa8a.png" alt="Trustcore Advisory monogram" />;
+  return <img className={className} src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663721754241/CHiFlJTUXbrdWsiH.png" alt="Trustcore Advisory monogram" />;
 }
 
 export function BrandLockup() {
