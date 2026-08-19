@@ -56,3 +56,10 @@
 - [x] Rebuild the Approach page around a clear engagement journey and user-friendly process explanation.
 - [x] Refine motion and visual hierarchy without sacrificing clarity.
 - [x] Validate route behavior and the Approach page at desktop and mobile breakpoints.
+
+## About Eva page refinement
+
+- [x] Audit the current About Eva page for founder-story clarity, credibility cues, and section rhythm.
+- [x] Rebuild the page around a clear professional profile, experience story, and practical credibility.
+- [x] Refine the visual hierarchy, founder details, and motion system.
+- [x] Validate the revised About Eva page at desktop and mobile breakpoints.
