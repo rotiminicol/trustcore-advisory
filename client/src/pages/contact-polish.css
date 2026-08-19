@@ -1,0 +1,35 @@
+/*
+ * Contact intake polish — Trustline-led, private advisory field-ledger details.
+ * These refinements turn the on-site enquiry flow from a standard form into a composed,
+ * sequential Trustcore introduction while preserving the clear front-end and Resend-ready boundary.
+ */
+.conversation-page { position: relative; overflow: hidden; }
+.conversation-page::before { position: absolute; z-index: 3; top: 475px; bottom: 367px; left: max(24px,calc((100% - 1280px)/2)); width: 1px; content: ""; pointer-events: none; background: linear-gradient(to bottom,rgba(185,138,72,.55),rgba(185,138,72,.13) 71%,rgba(185,138,72,.55)); }
+.conversation-page::after { position: absolute; z-index: 3; top: 489px; left: max(20px,calc((100% - 1280px)/2 - 4px)); width: 9px; height: 9px; content: ""; border: 1px solid #b98a48; border-radius: 50%; background: #f5f0e7; box-shadow: 0 0 0 4px rgba(245,240,231,.78); }
+
+.cv-hero__guide { position: relative; border-left: 2px solid rgba(216,180,119,.78); }
+.cv-hero__guide::after { display: block; margin-top: 22px; padding-top: 17px; color: rgba(249,245,233,.68); border-top: 1px solid rgba(249,245,233,.23); content: "Eva personally reviews each considered introduction."; font-family: "Cormorant Garamond", Georgia, serif; font-size: 16px; font-style: italic; line-height: 1.15; }
+.cv-hero__guide>p { display: none; }
+
+.cv-form-wrap { position: relative; border: 0; border-top: 1px solid #b9ae9e; border-bottom: 1px solid #b9ae9e; background: transparent; }
+.cv-form-wrap::before { position: absolute; z-index: 0; top: 0; right: 0; bottom: 0; left: 0; content: ""; pointer-events: none; background: linear-gradient(90deg,rgba(255,255,255,.3),rgba(255,255,255,.68)); }
+.conversation-form { position: relative; z-index: 1; padding: 0 0 27px; }
+.conversation-form__head { position: relative; padding: 26px 0 24px; }
+.conversation-form__head::after { position: absolute; right: 0; bottom: 23px; color: #1e4c43; content: "TRUSTCORE\A ADVISORY"; font-size: 7px; font-weight: 800; letter-spacing: .19em; line-height: 1.55; text-align: right; white-space: pre; }
+.conversation-form__head>img { width: 51px; height: 51px; margin-right: 87px; }
+.conversation-form fieldset { margin-top: 28px; }
+.conversation-focuses { display: grid; grid-template-columns: 1fr; gap: 0; counter-reset: service-choice; border-top: 1px solid #cdc4b6; }
+.conversation-focuses button { position: relative; gap: 13px; min-height: 42px; padding: 10px 8px 10px 35px; border: 0; border-bottom: 1px solid #cdc4b6; background: transparent; }
+.conversation-focuses button::before { position: absolute; left: 8px; color: #b98a48; content: counter(service-choice, decimal-leading-zero); counter-increment: service-choice; font-size: 8px; font-weight: 800; letter-spacing: .08em; }
+.conversation-focuses button:hover { color: #1e4c43; background: rgba(30,76,67,.045); }
+.conversation-focuses button.is-selected { color: #1e4c43; background: rgba(216,180,119,.17); }
+.conversation-focuses button.is-selected::before { color: #1e4c43; }
+.conversation-focuses button.is-selected svg { color: #1e4c43; }
+.conversation-form__fields { gap: 23px; }
+.conversation-form__footer { padding-right: 2px; }
+.conversation-form__footer>p { max-width: 318px; }
+.conversation-confirmation { box-shadow: inset 0 0 0 1px rgba(216,180,119,.35); }
+.cv-reassurance { position: relative; }
+.cv-reassurance::before { position: absolute; top: 0; bottom: 0; left: max(24px,calc((100% - 1280px)/2)); width: 1px; content: ""; background: rgba(216,180,119,.5); }
+
+@media (max-width:680px) { .conversation-page::before, .conversation-page::after, .cv-reassurance::before { display: none; }.cv-hero__guide::after { font-size: 15px; }.conversation-form__head>img { width: 40px; height: 40px; margin-right: 80px; }.conversation-form__head::after { bottom: 24px; font-size: 6px; }.conversation-form { padding-bottom: 22px; } }

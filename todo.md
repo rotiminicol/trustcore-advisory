@@ -69,3 +69,10 @@
 - [x] Generate a temporary professional founder portrait aligned with the Trustcore brand aesthetic.
 - [x] Integrate the temporary portrait into the About hero with a simple real-photo replacement path.
 - [x] Validate the portrait composition at desktop and mobile breakpoints.
+
+## Start a Conversation redesign
+
+- [x] Audit the existing contact route and remove all email-client hand-off behavior.
+- [x] Design a calm, on-site enquiry flow with clear service context and minimal required fields.
+- [x] Build client-side validation, in-page confirmation, and a Resend-ready submission boundary.
+- [x] Validate form behavior, accessibility, and responsive presentation at desktop and mobile sizes.
