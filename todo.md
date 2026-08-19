@@ -40,3 +40,11 @@
 - [x] Rebuild the Expertise-page structure around understandable business disciplines and outcomes.
 - [x] Refine visual hierarchy, page navigation cues, and purpose-driven motion.
 - [x] Validate the revised Expertise page at desktop and mobile breakpoints.
+
+## Services-page refinement
+
+- [x] Audit the current Services page for user clarity, visual hierarchy, and conversion flow.
+- [x] Create bespoke visual assets that make each service pathway immediately understandable.
+- [x] Build a clean visual service navigator with detailed yet scannable service profiles.
+- [x] Add refined sliders, motion, and parallax that support service discovery.
+- [x] Validate the revised Services page at desktop and mobile breakpoints.
