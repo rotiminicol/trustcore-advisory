@@ -25,3 +25,11 @@
 ## Hero rail refinement
 
 - [x] Remove the Home hero sequence counter and preserve the advisory rail layout.
+
+## Home-page refinement
+
+- [x] Audit the current Home page for message clarity, conversion flow, hierarchy, and section pacing.
+- [x] Rebuild the Home-page information architecture around a clear visitor journey.
+- [x] Refine hero copy, primary calls to action, section headings, and on-page navigation cues.
+- [x] Apply a calmer, more purposeful motion and transition system.
+- [x] Validate the revised Home page at desktop and mobile breakpoints.
